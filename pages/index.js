@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import React from "react"
-import Link from 'next/link'
-// import { Navbar } from '../components/Navbar'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -18,11 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Hello<a>!</a>
         </h1>
-
         <p className={styles.description}>
-          Welcome to Jinpu Li's homepage.
+          Welcome to Jinpu Li&apos;s homepage.
         </p>
-
       </main>
 
       <footer className={styles.footer}>
